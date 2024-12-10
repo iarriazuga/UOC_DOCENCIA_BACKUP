@@ -1,0 +1,70 @@
+con este procedimiento :
+
+
+AS 'begin
+let start_time timestamp_ntz := convert_timezone(''America/Los_Angeles'',''Europe/Madrid'', current_timestamp()::timestamp_ntz);
+let execution_time float;
+.
+
+end';
+
+
+devuelveme una tabla con los siguientes campos:
+tabla destino, campo, destino, datatype, comentario, transformación, tabla origen, campo origen
+
+
+
+
+
+
+
+
+
+
+
+con este procedimiento SQL, devuelveme una tabla de excel con los siguientes campos :
+    
+    destino, 
+    Taula, 
+    Camp taula, 
+    Datatype, 
+    Comentari,
+    Transformacio, 
+    Taula origen, 
+    Camp taula origen, 
+ 
+
+usa el castellano como idioma por defecto.
+y llena los siguientes campoos : 
+
+ID_DOCENCIA
+DIM_PAIS_NACIONALITAT_KEY
+DIM_EXPEDIENT_KEY
+DIM_MATRICULA_KEY
+DIM_PORTAFOLI_PA_KEY
+DIM_PAIS_NAIXEMENT_KEY
+DIM_PAIS_RESIDENCIA_KEY
+IDP_TUTOR
+TIPUS_TUTOR
+SUPER_EXPEDIENT
+COD_PLA
+IDP
+NUM_SOL_ACC
+NOTA_MITJANA
+NOTA_MITJANA_PUNTS
+ANY_ACAD_TITOL
+ANY_ACADEMIC
+ANY_ACAD_VALIDA
+COD_ASSIGNATURA
+ASSIGNATURA_CURSADA
+NUM_CREDITS
+NUM_CREDITS_TEORICS
+NUM_CREDITS_PRACTICS
+TIPUS_MATRICULA_UOC
+ASSIGNA_CLASE
+
+
+Usando el procedimiento: 
+
+
+
